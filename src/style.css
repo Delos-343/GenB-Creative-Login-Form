@@ -1,0 +1,116 @@
+html,
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #0C0C0C;
+  background-image: linear-gradient(315deg, 
+    #332f2f 0%, 
+    #0c0c0c 74%);
+  overflow-x: hidden;
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+
+
+.input-prepend input {
+  width: 25em; height: 2.5em;
+  border-radius: .5rem;
+  padding: 1%;
+}
+
+
+#login img {
+  margin: 1em 0;
+  width: 8em;
+}
+
+
+h1 {
+  font-size: 1.5rem; color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+h2 {
+  font-size: 1rem; color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 350;
+}
+
+
+#remember-me {
+  color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; font-size: .95em;
+}
+
+
+#login .center {
+  text-align: center;
+}
+
+
+#login .login {
+  max-width: 25em;
+	margin: auto;
+}
+
+
+#login .login-form {
+  padding: 0 .25em;
+}
+
+
+.btn-custom {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: #3cca6c;
+  width: 10em;
+  border-radius: .5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  body {
+    width: 100%;
+  }
+  
+  
+  .input-prepend input {
+    max-width: 15.5em;
+    max-height: 2.5em;
+    border-radius: .5rem;
+    padding: 1%;
+    margin: auto;
+  }
+  
+  
+  h1 {
+    font-size: 1rem;
+    margin: 1em 0 0 0;
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  
+  h2 {
+    font-size: .75rem;
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+  }
+  
+
+  #remember-me {
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300; font-size: .75em;
+  }
+  
+}
